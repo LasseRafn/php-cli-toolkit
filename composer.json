@@ -1,0 +1,40 @@
+{
+	"name": "lasserafn/php-cli-toolkit",
+	"description": "A package to help your CLI output needs",
+	"keywords": [
+		"cli",
+		"php"
+	],
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Lasse Rafn",
+			"email": "lasserafn@gmail.com"
+		}
+	],
+	"require": {
+		"php": "^7.0|^7.1|^7.2"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^7.0",
+		"satooshi/php-coveralls": "^2.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"LasseRafn\\CliToolkit\\": "src/"
+		},
+
+		"files": [
+			"src/helpers.php"
+		]
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"CliToolkit\\Tests\\": "tests/"
+		}
+	},
+	"config": {
+		"sort-packages": true
+	}
+}
