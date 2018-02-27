@@ -4,23 +4,23 @@ namespace LasseRafn\CliToolkit;
 
 class Color
 {
-	const DEFAULT      = '\e[0m';
-	const WHITE        = '\e[1;37m';
-	const BLACK        = '\e[0;30m';
-	const BLUE         = '\e[0;34m';
-	const LIGHT_BLUE   = '\e[1;34m';
-	const GREEN        = '\e[0;32m';
-	const LIGHT_GREEN  = '\e[1;32m';
-	const CYAN         = '\e[0;36m';
-	const LIGHT_CYAN   = '\e[1;36m';
-	const RED          = '\e[0;31m';
-	const LIGHT_RED    = '\e[1;31m';
-	const PURPLE       = '\e[0;35m';
-	const LIGHT_PURPLE = '\e[1;35m';
-	const BROWN        = '\e[0;33m';
-	const YELLOW       = '\e[1;33m';
-	const GRAY         = '\e[0;30m';
-	const LIGHT_GRAY   = '\e[0;37m';
+	const DEFAULT      = "\e[0m";
+	const WHITE        = "\e[1;37m";
+	const BLACK        = "\e[0;30m";
+	const BLUE         = "\e[0;34m";
+	const LIGHT_BLUE   = "\e[1;34m";
+	const GREEN        = "\e[0;32m";
+	const LIGHT_GREEN  = "\e[1;32m";
+	const CYAN         = "\e[0;36m";
+	const LIGHT_CYAN   = "\e[1;36m";
+	const RED          = "\e[0;31m";
+	const LIGHT_RED    = "\e[1;31m";
+	const PURPLE       = "\e[0;35m";
+	const LIGHT_PURPLE = "\e[1;35m";
+	const BROWN        = "\e[0;33m";
+	const YELLOW       = "\e[1;33m";
+	const GRAY         = "\e[0;30m";
+	const LIGHT_GRAY   = "\e[0;37m";
 
 
 	public static function default( $text = '' ) { return self::DEFAULT . $text . self::DEFAULT; }
